@@ -3,7 +3,6 @@ uvicorn==0.17.5
 requests==2.27.1
 fastapi==0.74.0
 scikit-learn==1.0.2
-python==3.8
 jupyterlab==3.2.9
 jupyter==1.0.0
 ipywidgets==7.6.5
