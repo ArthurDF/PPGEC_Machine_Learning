@@ -76,7 +76,7 @@ class Person(BaseModel):
                 "valence":0.5,
                 "tempo":60,
                 "duration_ms":300,
-                "time_signature":"2"
+                "time_signature":"1"
             }
         }
 
@@ -112,3 +112,4 @@ async def get_inference(person: Person):
         'trance', 'trap']
     
     return cat_list[np.max(predict)]
+    
