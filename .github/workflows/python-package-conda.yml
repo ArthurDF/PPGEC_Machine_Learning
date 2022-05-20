@@ -33,7 +33,7 @@ jobs:
         conda activate colab2deploy
     - name : Login in wandb
       run: |
-        wandb login ${{} secrets.WANDB_KEY_ID}
+        wandb login ${{ secrets.WANDB_KEY_ID }}
     - name: Test with pytest
       run: |
         conda install pytest
