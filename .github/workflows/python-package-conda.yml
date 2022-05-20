@@ -20,7 +20,7 @@ jobs:
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        conda env create --file environment.yml
+        conda env create --file /Users/runner/work/PPGEC_Machine_Learning/enviroment.yml
     - name: Lint with flake8
       run: |
         conda install flake8
