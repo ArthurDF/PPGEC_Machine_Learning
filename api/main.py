@@ -13,7 +13,7 @@ import joblib
 import os
 import wandb
 import sys
-from pipeline import FeatureSelector, CategoricalTransformer, NumericalTransformer
+from .pipeline import FeatureSelector, CategoricalTransformer, NumericalTransformer
 
 # global variables
 setattr(sys.modules["__main__"], "FeatureSelector", FeatureSelector)
