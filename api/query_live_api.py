@@ -1,6 +1,7 @@
 """
-Creator: Ivanovitch Silva
-Date: 26 April. 2022
+Creator: Arthur Diniz Flor Torquato Fernandes
+Based on code by: Ivanovitch Silva
+Date: 20 May. 2022
 Script that POSTS to the API using the requests 
 module and returns both the result of 
 model inference and the status code
@@ -25,8 +26,8 @@ music =  {
                 "time_signature":"1"
             }
 
-url = "http://127.0.0.1:8000"
-#url = "https://high-income-app.herokuapp.com"
+url = "https://ppgec-spotify-music.herokuapp.com"
+
 response = requests.post(f"{url}/predict",
                          json=music)
 

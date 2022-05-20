@@ -1,6 +1,7 @@
 """
-Creator: Ivanovitch Silva
-Date: 16 April 2022
+Creator: Arthur Diniz Flor Torquato Fernandes
+Based on code by: Ivanovitch Silva
+Date: 20 May. 2022
 Define classes used in the pipeline
 """
 from sklearn.base import BaseEstimator, TransformerMixin
