@@ -18,3 +18,12 @@ For the sake of understanding, a simple hyperparameter-tuning was conducted usin
 This model is used as a proof of concept for the evaluation of an entire data pipeline incorporating Machine Learning fundamentals. The data pipeline is composed of the following stages: a) fecht data, b) eda, c) preprocess, d) data check, e) segregate, f) train and g) test.
 
 The dataset used in this project is based on the musical genre of the songs available in the Spotify application. The data was extracted from kaggle and contains information on danceability, energy, tonality, volume, mood, speech, acoustics, instrumentality, liveliness and more. The target column, or what we want to predict, is what musical genre that song belongs to, such as: Trap, Techno, Techhouse, Trance, Psytrance, Dark Trap, DnB (drums and bass), Hardstyle, Underground Rap, Trap Metal, Emo , Rap, RnB, Pop or Hiphop. The size of the dataset is about 43,205 rows and 22 columns.
+
+You can download the data from the Kaggle website, at this link: https://www.kaggle.com/mrmorj/dataset-of-songs-in-spotify
+
+Additionally, 30% of the Train data is used for validation purposes (hyperparameter-tuning).
+
+In order to follow the performance of machine learning experiments, the project marked certains stage outputs of the data pipeline as metrics. The metrics adopted are: accuracy, f1, precision, recall.
+
+To calculate the evaluations metrics is only necessary to run:
+The follow results will be shown:
