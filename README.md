@@ -18,3 +18,5 @@ Com isso estabelecemos um servidor local e podemos realizar os testes adequados.
 Podemos também aproveitar essa oportunidade para fazer uns testes locais na nossa API, utilizando novamente o Pytest.
 
 Se ela tiver validade, nosso cliente poderá interagir com o nosso modelo.
+
+Para comprovar e verificar a funcionalidade da Api, basta usar esse código abaixo, ele é um request padrão para uma Api, modifique-o conforme a natureza do seu projeto.
