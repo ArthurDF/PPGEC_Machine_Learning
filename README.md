@@ -5,3 +5,7 @@ Este repositório contem o projeto de uma Api de consumo de dados de Machine Lea
 Para usar a Api favor seguir esse código de exemplo
 
 https://gist.github.com/ArthurDF/dbdc67454bf3a16b85bfc9f96446966e
+
+## Criando a API
+
+Para a criação desta API, foi utilizada a biblioteca FastAPI e o código abaixo.
