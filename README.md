@@ -19,4 +19,4 @@ Podemos também aproveitar essa oportunidade para fazer uns testes locais na nos
 
 Se ela tiver validade, nosso cliente poderá interagir com o nosso modelo.
 
-Para comprovar e verificar a funcionalidade da Api, basta usar esse código abaixo, ele é um request padrão para uma Api, modifique-o conforme a natureza do seu projeto.
+Para comprovar e verificar a funcionalidade da Api, basta usar esse código que se encontra no link já apresentado anteriormente, ele é um request padrão para uma Api, modifique-o conforme a natureza do seu projeto.
